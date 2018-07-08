@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A6E6DCE6946E8D9BF614E8 /* Pods_RxSwiftCalculate3Numbers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73E518F814553123FE73962 /* Pods_RxSwiftCalculate3Numbers.framework */; };
 		5B05581420F1EA4100C1B6C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05581320F1EA4100C1B6C8 /* AppDelegate.swift */; };
 		5B05581620F1EA4100C1B6C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05581520F1EA4100C1B6C8 /* ViewController.swift */; };
 		5B05581920F1EA4100C1B6C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B05581720F1EA4100C1B6C8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B5E83C755DE8E49987D9FB1 /* Pods-RxSwiftCalculate3Numbers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCalculate3Numbers.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCalculate3Numbers/Pods-RxSwiftCalculate3Numbers.release.xcconfig"; sourceTree = "<group>"; };
 		5B05581020F1EA4100C1B6C8 /* RxSwiftCalculate3Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftCalculate3Numbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B05581320F1EA4100C1B6C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B05581520F1EA4100C1B6C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		5B05581A20F1EA4100C1B6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B05581D20F1EA4100C1B6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B05581F20F1EA4100C1B6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADA76A8F21EEBB3EFB286DB /* Pods-RxSwiftCalculate3Numbers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCalculate3Numbers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftCalculate3Numbers/Pods-RxSwiftCalculate3Numbers.debug.xcconfig"; sourceTree = "<group>"; };
+		B73E518F814553123FE73962 /* Pods_RxSwiftCalculate3Numbers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftCalculate3Numbers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A6E6DCE6946E8D9BF614E8 /* Pods_RxSwiftCalculate3Numbers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A489B586EAB39C634CE0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73E518F814553123FE73962 /* Pods_RxSwiftCalculate3Numbers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B05580720F1EA4100C1B6C8 = {
 			isa = PBXGroup;
 			children = (
 				5B05581220F1EA4100C1B6C8 /* RxSwiftCalculate3Numbers */,
 				5B05581120F1EA4100C1B6C8 /* Products */,
+				632C742015091F7E35E35386 /* Pods */,
+				30A489B586EAB39C634CE0BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = RxSwiftCalculate3Numbers;
 			sourceTree = "<group>";
 		};
+		632C742015091F7E35E35386 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ADA76A8F21EEBB3EFB286DB /* Pods-RxSwiftCalculate3Numbers.debug.xcconfig */,
+				2B5E83C755DE8E49987D9FB1 /* Pods-RxSwiftCalculate3Numbers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B05582220F1EA4100C1B6C8 /* Build configuration list for PBXNativeTarget "RxSwiftCalculate3Numbers" */;
 			buildPhases = (
+				B12A62BED53902D6856D3CAB /* [CP] Check Pods Manifest.lock */,
 				5B05580C20F1EA4100C1B6C8 /* Sources */,
 				5B05580D20F1EA4100C1B6C8 /* Frameworks */,
 				5B05580E20F1EA4100C1B6C8 /* Resources */,
+				A0B392845DB8BEB95078CC6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +156,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0B392845DB8BEB95078CC6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCalculate3Numbers/Pods-RxSwiftCalculate3Numbers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftCalculate3Numbers/Pods-RxSwiftCalculate3Numbers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B12A62BED53902D6856D3CAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftCalculate3Numbers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B05580C20F1EA4100C1B6C8 /* Sources */ = {
@@ -272,6 +339,7 @@
 		};
 		5B05582320F1EA4100C1B6C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADA76A8F21EEBB3EFB286DB /* Pods-RxSwiftCalculate3Numbers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +354,7 @@
 		};
 		5B05582420F1EA4100C1B6C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5E83C755DE8E49987D9FB1 /* Pods-RxSwiftCalculate3Numbers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
